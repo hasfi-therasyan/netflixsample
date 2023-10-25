@@ -43,45 +43,53 @@
 <!--SEÇÃO CONTENDO FILMES DO ASSISTIR NOVAMENTE(OS FILMES SÃO COLOCADOS MANUALMENTE)-->
 
     <section class="container">
-        <p class="container__texto">Watch Again</p>
-        <ul class="container__lista">
-            
-            <li class="container__video">
+        <p class="container__texto">Todos os filmes</p>
+
+        <div id="carrosel">
+        <button type="button" id="btnleft"><img src="img/Carrosel-setae.png" alt="seta" class="botao__seta"></button>
+        <button type="button" id="btnright"><img src="img/Carrosel-setad.png" alt="seta" class="botao__seta"></button>
+
+        <div class="container__lista" id="container">
+
+            <div class="container__video carrossel_item">
                 <a href="filme1.html">
                     <img src="img/jump.jpg" alt="Video" class="cropped">
-                    <div class="desc">Jump All Around</div>
+                    <div class="desc">Jumping All Around!</div>
                 </a>
-            </li>
+            </div>
 
-            <li class="container__video">
+            <div class="container__video carrossel_item">
                 <a href="filme2.html">
                     <img src="img/balloon.jpg" alt="Video" class="cropped">
                     <div class="desc">Crafts!</div>
                 </a>
-            </li>
+            </div>
 
-            <li class="container__video">
+            <div class="container__video carrossel_item">
                 <a href="filme3.html">
                     <img src="img/flowers.jpg" alt="Video" class="cropped">
                     <div class="desc">Blossom</div>
                 </a>
-            </li>
+            </div>
 
-            <li class="container__video">
+            <div class="container__video carrossel_item">
                 <a href="filme4.html">
                     <img src="img/aquarium.jpg" alt="Video" class="cropped">
                     <div class="desc">Aquarium Date</div>
                 </a>
-            </li>
+            </div>
 
-            <li class="container__video">
+            <div class="container__video carrossel_item">
                 <a href="filme5.html">
                     <img src="img/arcade.jpg" alt="Video" class="cropped">
-                    <div class="desc">Arcade Fun!</div>
+                    <div class="desc">Arcade</div>
                 </a>
-            </li>
+            </div>
+        
+            <div id="limitador">limitador</div>
+        </div>
+        </div>
 
-        </ul>
     </section>
 
 <!--RODAPE DA PAGINA-->
