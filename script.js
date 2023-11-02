@@ -83,3 +83,8 @@ btnLeft.addEventListener('click', () => {
 
 
 });
+
+
+
+
+
